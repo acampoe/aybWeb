@@ -1,0 +1,24 @@
+header{
+  width: 100%;
+
+}
+#mainImage{
+  width: 100%;
+  text-align: center;
+}
+#mainArticle{
+  width: 100%;
+  text-align: center;
+}
+#description{
+  width: 100%;
+  text-align: center;
+}
+footer{
+  width: 100%;
+  text-align: center;
+}
+.button{
+  background-color: #912900
+  
+}
