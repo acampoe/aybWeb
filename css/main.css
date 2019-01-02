@@ -8,7 +8,7 @@ header{
 #mainImage{
   padding-left: 150px;
   padding-right: 150px;
-  width: 1033px;
+  width: 80%;
 }
 #mainArticle{
   width: 100%;
@@ -26,10 +26,10 @@ header{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-footer{
+.footer{
   padding: 10px;
   background-color: #C7001B;
-  height: 280px;
+  height: 349px;
 }
 .button{
   background-color: #912900;
@@ -78,11 +78,19 @@ li a:hover{
   float: right;
   margin-top: 32px;
 }
-#logo-solido{
+.logo-solido{
   padding-top: 25px;
   padding-left: 55px;
-  width:200px;
+  width:250px;
   float: left;
+  border-right: 1px solid grey;
+  padding-right: 20px;
+}
+#logo-s{
+  margin-bottom: 10px;
+  width:250px;
+  float: left;
+
 }
 .info{
   background-color: white;
@@ -92,8 +100,8 @@ li a:hover{
 }
 #veritas{
   margin-left: 15px;
-  width: 300px;
-  border-left: 1px solid grey;
+  width: 250px;
+
 }
 .cont{
   margin-right: 300px;
