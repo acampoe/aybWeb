@@ -5,6 +5,9 @@ header{
   padding-right: 150px;
   margin-top: 0px;
 }
+body{
+  font-family: helvetica;
+}
 #mainImage{
   padding-left: 150px;
   padding-right: 150px;
@@ -53,7 +56,7 @@ h2{
 .footer{
   padding: 10px;
   background-color: #C7001B;
-  height: 349px;
+  height: 380px;
 }
 .button{
   background-color: #912900;
