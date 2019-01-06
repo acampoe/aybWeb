@@ -5,14 +5,41 @@ header{
   padding-right: 150px;
   margin-top: 0px;
 }
+body{
+  font-family: helvetica;
+}
 #mainImage{
   padding-left: 150px;
   padding-right: 150px;
-  width: 78%;
+  width: 80%;
 }
 #mainArticle{
   width: 100%;
   text-align: center;
+}
+.mainArticle{
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: justify;
+  background-color: #F7F7F7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.text{
+  margin-bottom: -10px;
+  background-color: white;
+  color: grey;
+  padding: 15px;
+  margin-top: -10px;
+}
+h1{
+  color: grey;
+}
+h2{
+  text-align: center;
+  font-weight:1;
+  color: grey;
 }
 #description{
   text-align: justify;
@@ -26,10 +53,10 @@ header{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-footer{
+.footer{
   padding: 10px;
   background-color: #C7001B;
-  height: 280px;
+  height: 380px;
 }
 .button{
   background-color: #912900;
@@ -78,11 +105,19 @@ li a:hover{
   float: right;
   margin-top: 32px;
 }
-#logo-solido{
+.logo-solido{
   padding-top: 25px;
   padding-left: 55px;
   width:250px;
   float: left;
+  border-right: 1px solid grey;
+  padding-right: 20px;
+}
+#logo-s{
+  margin-bottom: 10px;
+  width:250px;
+  float: left;
+
 }
 .info{
   background-color: white;
@@ -93,7 +128,7 @@ li a:hover{
 #veritas{
   margin-left: 15px;
   width: 250px;
-  border-left: 1px solid grey;
+
 }
 .cont{
   margin-right: 300px;
@@ -111,7 +146,4 @@ div p {
   margin-right: 10px;
   padding-top: 10px;
   text-align: center;
-}
-#letras{
-  margin-top: 30px;
 }
