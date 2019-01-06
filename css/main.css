@@ -53,6 +53,34 @@ h2{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+#descriptionn{
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: #87B1CB;
+  color: white;
+  font-size: 31px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.boton{
+  text-align: center;
+  background-color: #912900;
+  padding: 10px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.boton a{
+  color: white;
+  text-decoration: none;
+}
 .footer{
   padding: 10px;
   background-color: #C7001B;
