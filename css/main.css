@@ -68,18 +68,16 @@ h2{
 .boton{
   text-align: center;
   background-color: #912900;
-  padding: 10px;
-  margin-left: 45%;
-  margin-right: 45%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding: 0.5%;
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
-.boton a{
-  color: white;
-  text-decoration: none;
+.boton:hover{
+  background-color: #005D96;
+}
+.mm{
+  margin: 7%;
 }
 .footer{
   padding: 10px;
@@ -174,4 +172,7 @@ div p {
   margin-right: 10px;
   padding-top: 10px;
   text-align: center;
+}
+form{
+  
 }
