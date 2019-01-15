@@ -173,6 +173,19 @@ div p {
   padding-top: 10px;
   text-align: center;
 }
-form{
-  
+.contaa{
+}
+.form{
+  width: 80%;
+}
+.contactimage{
+  width: 25%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px grey;
+}
+.foorm{
+  float: left;
+}
+.script{
+  margin-bottom: 5%;
 }

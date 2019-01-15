@@ -23,7 +23,7 @@
           <li class="button"><a href="nosotros.html">Nosotros</a></li>
           <li class="button"><a href="servicios.html">Servicios</a></li>
           <li class="button"><a href="instalaciones.html">Instalaciones</a></li>
-          <li class="button"><a href="#">Resultados</a></li>
+          <li class="button"><a href="resultados.html">Resultados</a></li>
           <li class="button"><a href="#">Contacto</a></li>
           <li class="button" id="last"></li>
         </ul>
@@ -34,16 +34,27 @@
     <div class="mainArticle">
       <div class="text">
         <h1>Cont&aacute;ctenos</h1>
-        <p>
-          Para preguntas generales, marca 6910495, 3004404489. <br> O completa el formulario de contacto:
-        </p>
-        <form class="" action="index.html" method="post">
-          <input type="text" name="name" placeholder="Nombre"> <br>
-          <input type="text" name="email" placeholder="Correo Electr&oacute;nico"><br>
-          <input type="text" name="subject" placeholder="Asunto"><br>
-          <textarea name="message" rows="8" cols="80" placeholder="Mensaje"></textarea><br>
-          <input type="submit" name="enviar" value="Enviar" id="enviar">
-        </form>
+
+        <div class="script">
+          <div class="foorm">
+            <p>
+              Para preguntas generales, marca 6910495, 3004404489. <br> O completa el formulario de contacto:
+            </p>
+            <form class="" action="index.html" method="post">
+              <input type="text" name="name" placeholder="Nombre" required class="form"> <br> <br>
+              <input type="text" name="email" placeholder="Correo Electr&oacute;nico" required class="form"><br> <br>
+              <input type="text" name="subject" placeholder="Asunto" required class="form"><br> <br>
+              <textarea name="message" rows="8" cols="80" placeholder="Mensaje" required class="form"></textarea><br> <br>
+              <input type="submit" name="enviar" value="Enviar" id="enviar">
+            </form>
+          </div>
+
+          <div class="contaa">
+            <p>Nos encantar&aacute; charlar personalmente:</p>
+            <p>San Pedro Manzana 7 Lote 4 <br> aysocupacional@gmail.com</p>
+            <img src="img/recept.jpg" alt="" class="contactimage">
+          </div>
+        </div>
       </div>
     </div>
     <footer>
