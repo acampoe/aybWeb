@@ -117,9 +117,12 @@ li a{
   text-decoration: none;
   border: 10px;
   color: white;
+  -webkit-transition-duration: 0.1s; /* Safari */
+transition-duration: 0.1s;
 }
 li a:hover{
-  background-color: #005D96;
+  background-color: black;
+  color: white;
 }
 .contact{
   text-align: right;
@@ -193,4 +196,8 @@ div p {
 }
 .mapa iframe{
   width: 100%;
+}
+
+.active{
+    background-color: #005D96;
 }
