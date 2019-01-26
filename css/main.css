@@ -9,8 +9,9 @@ body{
   font-family: helvetica;
 }
 #mainImage{
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 9%;
+  padding-right: 8%;
+  margin-bottom: 0.3%;
   width: 80%;
 }
 #mainArticle{
@@ -75,14 +76,17 @@ h2{
 }
 .boton:hover{
   background-color: #005D96;
+  box-shadow: 0 0 15px #912900;
+  transition-duration: 0.1s;
 }
 .mm{
   margin: 7%;
 }
-.footer{
-  padding: 10px;
+footer{
   background-color: #C7001B;
-  height: 380px;
+  height: 300px;
+  box-shadow: 1px -5px 10px lightgrey;
+  margin-top: 0.5%;
 }
 .button{
   background-color: #912900;
@@ -117,8 +121,8 @@ li a{
   text-decoration: none;
   border: 10px;
   color: white;
-  -webkit-transition-duration: 0.1s; /* Safari */
-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.01s; /* Safari */
+transition-duration: 0.01s;
 }
 li a:hover{
   background-color: black;
@@ -130,16 +134,20 @@ li a:hover{
 #conta{
   width: 25px;
 }
+#conta2{
+  width: 17px;
+}
 #nav{
   float: right;
-  margin-top: 32px;
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
 .logo-solido{
   padding-top: 25px;
   padding-left: 55px;
   width:250px;
   float: left;
-  border-right: 1px solid grey;
+
   padding-right: 20px;
 }
 #logo-s{
@@ -153,11 +161,15 @@ li a:hover{
   font-size: 14px;
   width: 50%;
   float: left;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 #veritas{
   margin-left: 15px;
+  margin-top: 2%;
   width: 250px;
-
+border-left: 1px solid grey;
 }
 .cont{
   margin-right: 300px;
@@ -200,4 +212,10 @@ div p {
 
 .active{
     background-color: #005D96;
+}
+.info p{
+  margin: 3% 7% 0 7%;
+}
+.con img{
+  width: 30px;
 }
